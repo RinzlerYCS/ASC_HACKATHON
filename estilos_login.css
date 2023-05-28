@@ -1,0 +1,108 @@
+#header{
+    background-color: #fff;
+    height: 88px;
+    justify-content: space-between;
+    padding: 5px 10%;
+}
+
+.img-container {
+    text-align: center;
+}
+
+.img-container img{
+    margin-left: auto;
+    margin-right: auto;
+}
+.tiger{
+    padding-top: 80px;
+    padding-left: 150px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0px;
+}
+#r_caja{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Registro{
+    color: gray;
+    text-decoration: none;
+    border-bottom: 1px solid #75a4c0;
+    transition: border-color 0.3s ease;
+}
+#Registro:hover{
+    border-color: #5b8399;
+
+}
+
+.contenedor_de_todo {
+    float: right;
+    margin: 100px 150px;
+    width: 400px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 30px;
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.2);
+}
+
+.linea{
+    background-color: gray;
+    border-radius: 5%;
+    width: 100%;
+    height: 2px;
+}
+
+
+input[type="email"],
+input[type="password"] {
+    padding: 12px;
+    margin-bottom: 10px;
+    width: 370px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+#boton_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+#login_boton{
+    background-color: #75a4c0;
+    color: white;
+    width: 200px;
+    height: 35px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 15px;
+}
+
+#login_boton:hover {
+    background-color: #5b8399;
+}
+
+footer {
+    background-color: #f2f2f2;
+    
+    text-align: center;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    background-color: #75a4c0;
+    padding: 20px;
+    text-align: center;
+}

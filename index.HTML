@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets\CSS\estilos_login.css">
+    <title>LOGIN Y REGISTRO DE USUARIOS</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="img-container">
+            <img src="ASC_LOGO_3.png" width="400" height="180">
+        </div>
+    </header>
+    <img src="tiger.png" width="300" height="300" class="tiger">
+
+    <div class="contenedor_de_todo">
+        <form class="inputs" action="formulario_login">
+            <input type="password" placeholder="Contraseña" id="password">
+            <input type="email" placeholder="Correo Electronico" id="email">
+        </form>
+        <div class="linea">
+            <p></p>
+        </div>
+        <div id="boton_container">
+            <button id="login_boton" type="submit" onclick="iniciarSesion()">INICIA SESION</button>
+        </div>
+        <div id="r_caja">
+            <a id="Registro" href="registro.html">Registrarte</a>
+        </div>
+        <script src="index.js"></script>
+    </div>
+    <footer>
+        <div class="footer">
+        <p>© 2023 Todos los derechos reservados</p>
+        </div>
+    </footer>
+</body>
+
+</html>
